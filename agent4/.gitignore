@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Agent4 specific
+memory_db/
+custom_tools/*.py
+!custom_tools/__init__.py
+cache/
+logs/*.log
+projects/
+backups/
+screenshots/
+*.db
+*.sqlite
+
+# Configuration (keep sample, ignore actual)
+config.toml.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models and data
+*.bin
+*.pt
+*.pth
+models/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

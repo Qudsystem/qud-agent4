@@ -1,0 +1,28 @@
+{
+  "learned_patterns": [
+    {
+      "regex": "\\bEnter\\.\\b",
+      "replacement": "",
+      "learned_from": "Enter.",
+      "error_type": "stray_english_in_arabic",
+      "created_at": "2025-12-14T04:07:47.682409"
+    }
+  ],
+  "error_log": [
+    {
+      "text": "Enter.",
+      "type": "stray_english_in_arabic",
+      "count": 4,
+      "first_seen": "2025-12-14T03:33:24.577008",
+      "learned": true
+    }
+  ],
+  "total_cleaned": 8,
+  "improvements": [
+    {
+      "type": "learned_pattern",
+      "pattern": "Enter.",
+      "timestamp": "2025-12-14T04:07:47.682431"
+    }
+  ]
+}
