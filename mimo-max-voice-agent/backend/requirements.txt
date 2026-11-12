@@ -1,0 +1,21 @@
+# MIMO-MAX Backend Requirements (Simplified for Python 3.14)
+# Run: pip install -r requirements.txt
+
+# Core Framework
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# AI (Gemini - works without compilation)
+google-generativeai
+
+# Utilities
+httpx
+pydantic
+
+# LangChain & LangGraph
+langchain
+langchain-community
+langchain-google-genai
+langgraph
+duckduckgo-search

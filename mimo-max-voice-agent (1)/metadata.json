@@ -1,0 +1,9 @@
+{
+  "name": "MIMO-MAX Voice Agent",
+  "description": "An advanced AI personal assistant with an OLED personality interface, capable of conversation, image generation, and video creation.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "display-capture"
+  ]
+}
