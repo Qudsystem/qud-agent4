@@ -1,0 +1,63 @@
+# Agent4 - SuperAgent Requirements
+# Core Dependencies
+ollama>=0.1.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# LLM & AI
+openai>=1.0.0
+anthropic>=0.18.0
+transformers>=4.35.0
+torch>=2.0.0
+
+# Voice & Audio
+openai-whisper>=20231117
+pyttsx3>=2.90
+pyaudio>=0.2.13
+webrtcvad>=2.0.10
+soundfile>=0.12.0
+
+# Vision
+pillow>=10.0.0
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+clip-by-openai>=1.0
+
+# Web & Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+playwright>=1.40.0
+duckduckgo-search>=4.1.0
+
+# System & Execution
+psutil>=5.9.0
+pyautogui>=0.9.54
+docker>=6.1.0
+
+# Memory & Database
+sqlalchemy>=2.0.0
+pymongo>=4.5.0
+
+# Monitoring & Logging
+prometheus-client>=0.19.0
+fastlogging>=0.9.0
+
+# Utilities
+python-dotenv>=1.0.0
+toml>=0.10.2
+pyyaml>=6.0.1
+colorama>=0.4.6
+asyncio>=3.4.3
+aiohttp>=3.9.0
+
+# Security
+cryptography>=41.0.0
+
+# Code Analysis
+ast>=3.11.0
+black>=23.10.0
+pylint>=3.0.0
+
+# Fast TTS (Alternative implementations)
+TTS>=0.20.0
